@@ -1,0 +1,91 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "ctrl+x 0",
+    "command": "workbench.action.closeActiveEditor"
+},{
+    "key": "alt+w",
+    "command": "editor.action.clipboardCopyAction"
+},{
+    "key": "ctrl+w",
+    "command": "editor.action.clipboardCutAction"
+},{
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+},{
+    "key": "ctrl+x s",
+    "command": "workbench.action.files.save"
+},{
+    "key": "ctrl+x ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+},{
+    "key": "ctrl+x ctrl+f",
+    "command": "workbench.action.files.openFile"
+},{
+    "key": "ctrl+n",
+    "command": "editor.action.nextMatchFindAction",
+    "when": "editorFocus && findWidgetVisible"
+},{
+    "key": "ctrl+p",
+    "command": "editor.action.previousMatchFindAction",
+    "when": "editorFocus && findWidgetVisible"
+},{
+    "key": "enter",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+},{
+    "key": "ctrl+n",
+    "command": "cursorDown"
+},{
+    "key": "ctrl+y",
+    "command": "editor.action.clipboardPasteAction"
+},{
+    "key": "ctrl+x ctrl+k",
+    "command": "editor.action.defineKeybinding",
+    "when": "editorFocus"
+},{
+    "key": "ctrl+x u",
+    "command": "undo",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+x",
+    "command": "workbench.action.showCommands"
+},{
+    "key": "ctrl+k",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+d",
+    "command": "deleteRight",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+h",
+    "command": "deleteLeft",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+x o",
+    "command": "workbench.action.cycleEditor"
+},{
+    "key": "ctrl+x 2",
+    "command": "workbench.action.splitEditor"
+},{
+    "key": "ctrl+p",
+    "command": "cursorUp"
+},{
+    "key": "ctrl+e",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+a",
+    "command": "cursorHome",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+b",
+    "command": "cursorLeft"
+},{
+    "key": "ctrl+f",
+    "command": "cursorRight"
+}
+,{
+    "key": "ctrl+s",
+    "command": "actions.find"
+}]
