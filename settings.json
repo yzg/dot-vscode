@@ -1,5 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.renderWhitespace": true,
-    "editor.fontSize": 18
+    "editor.fontSize": 16
 }

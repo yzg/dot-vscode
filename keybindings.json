@@ -34,7 +34,12 @@
     "when": "editorFocus && findWidgetVisible"
 },{
     "key": "ctrl+n",
-    "command": "cursorDown"
+    "command": "cursorDown",
+    "when": "editorTextFocus"
+},{
+    "key": "shift+v",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
 },{
     "key": "ctrl+y",
     "command": "editor.action.clipboardPasteAction"
@@ -50,8 +55,12 @@
     "key": "alt+x",
     "command": "workbench.action.showCommands"
 },{
-    "key": "ctrl+k",
+    "key": "alt+k",
     "command": "cursorEndSelect",
+    "when": "editorTextFocus"
+},{
+    "key": "ctrl+k",
+    "command": "deleteAllRight",
     "when": "editorTextFocus"
 },{
     "key": "ctrl+d",
@@ -69,7 +78,8 @@
     "command": "workbench.action.splitEditor"
 },{
     "key": "ctrl+p",
-    "command": "cursorUp"
+    "command": "cursorUp",
+    "when": "editorTextFocus"
 },{
     "key": "ctrl+e",
     "command": "cursorEnd",
@@ -80,10 +90,12 @@
     "when": "editorTextFocus"
 },{
     "key": "ctrl+b",
-    "command": "cursorLeft"
+    "command": "cursorLeft",
+    "when": "editorTextFocus"
 },{
     "key": "ctrl+f",
-    "command": "cursorRight"
+    "command": "cursorRight",
+    "when": "editorTextFocus"
 }
 ,{
     "key": "ctrl+s",
