@@ -13,6 +13,9 @@
     "command": "-workbench.action.files.newUntitledFile"
 },{
     "key": "ctrl+x s",
+    "command": "workbench.action.files.saveAll"
+},{
+    "key": "ctrl+x ctrl+s",
     "command": "workbench.action.files.save"
 },{
     "key": "ctrl+x ctrl+b",
@@ -35,10 +38,6 @@
 },{
     "key": "ctrl+n",
     "command": "cursorDown",
-    "when": "editorTextFocus"
-},{
-    "key": "shift+v",
-    "command": "expandLineSelection",
     "when": "editorTextFocus"
 },{
     "key": "ctrl+y",
@@ -64,12 +63,10 @@
     "when": "editorTextFocus"
 },{
     "key": "ctrl+d",
-    "command": "deleteRight",
-    "when": "editorTextFocus"
+    "command": "deleteRight"
 },{
     "key": "ctrl+h",
-    "command": "deleteLeft",
-    "when": "editorTextFocus"
+    "command": "deleteLeft"
 },{
     "key": "ctrl+x o",
     "command": "workbench.action.cycleEditor"
@@ -90,14 +87,28 @@
     "when": "editorTextFocus"
 },{
     "key": "ctrl+b",
-    "command": "cursorLeft",
-    "when": "editorTextFocus"
+    "command": "cursorLeft"
 },{
     "key": "ctrl+f",
-    "command": "cursorRight",
-    "when": "editorTextFocus"
+    "command": "cursorRight"
 }
 ,{
+    "key": "ctrl+v",
+    "command": "cursorPageDown",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+v",
+    "command": "cursorPageUp",
+    "when": "editorTextFocus"
+},{
     "key": "ctrl+s",
     "command": "actions.find"
+},{
+    "key": "alt+shift+.",
+    "command": "cursorBottom",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+shift+,",
+    "command": "cursorTop",
+    "when": "editorTextFocus"
 }]
